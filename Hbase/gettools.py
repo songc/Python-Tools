@@ -1,7 +1,7 @@
 import happybase
 
-host_name = 'hadoop-hbase'
-table_name = 'spark-test'
+host_name = 'spark-test-0'
+table_name = 'test-1'
 connect = happybase.Connection(host_name)
 table = connect.table(table_name)
 
